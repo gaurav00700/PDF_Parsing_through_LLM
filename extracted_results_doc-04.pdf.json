@@ -1,0 +1,38 @@
+{
+    "general_field": {
+        "document_id": "STMT-78924-2025",
+        "document_type": "credit",
+        "document_date": "March 15, 2025",
+        "customer_name": "Robert Johnson",
+        "customer_id": 3824,
+        "institution_name": "Global Financial Bank",
+        "institution_address": "123 Maple Street, Boston, MA 02108, USA",
+        "language": "en"
+    },
+    "document_field": {
+        "portfolio_id": "null",
+        "portfolio_value": "null",
+        "asset_number": 3824,
+        "risk_profile": "null",
+        "account_number": null,
+        "account_type": "checking",
+        "statement_period": "monthly",
+        "opening_balance": null,
+        "closing_balance": null,
+        "available_balance": null,
+        "transaction_number": 12,
+        "debtor_name": "Acme Inc",
+        "creditor_name": "Rent",
+        "garnishment_amount": "null",
+        "effective_date": "February 18, 2025",
+        "duration": null,
+        "legal_authority": "null",
+        "card_number": "null",
+        "credit_limit": null,
+        "interest_rate": null,
+        "payment_due_date": "null",
+        "minimum_payment": null,
+        "previous_balance": null,
+        "new_balance": null
+    }
+}

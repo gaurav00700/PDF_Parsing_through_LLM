@@ -1,0 +1,45 @@
+{
+    "general": [
+        "document_id",
+        "document_type",
+        "document_date",
+        "customer_name",
+        "customer_id",
+        "institution_name",
+        "institution_address",
+        "language"
+    ],
+    "investment":[
+        "portfolio_id",
+        "portfolio_value",
+        "asset_number",
+        "risk_profile"
+    ],
+    "personal_account":[
+        "account_number",
+        "account_type",
+        "statement_period",
+        "opening_balance",
+        "closing_balance",
+        "available_balance",
+        "transaction_number"
+    ],
+    "garnishment":[
+        "debtor_name",
+        "creditor_name",
+        "garnishment_amount",
+        "effective_date",
+        "duration",
+        "legal_authority"
+    ],
+    "credit":[
+        "card_number",
+        "credit_limit",
+        "interest_rate",
+        "payment_due_date",
+        "statement_period",
+        "minimum_payment",
+        "previous_balance",
+        "new_balance"
+    ]
+}
