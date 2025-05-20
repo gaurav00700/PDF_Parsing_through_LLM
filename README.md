@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### Usage
 1. Run the script by executing the following command in the terminal (Ollama is used LLM serving):
 ```
-python ./document_extractor.py --doc_path ./documents/doc-01.pdf --save_json_path .
+python document_extractor.py --doc_path data/input/doc-04.pdf --save_json_path data/output
 ```
 
 ### Results
