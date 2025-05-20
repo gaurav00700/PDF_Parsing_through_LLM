@@ -158,11 +158,11 @@ if __name__ == "__main__":
 
     # Define arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--doc_path", type=str, default="documents/doc-04.pdf", help="Path of pdf file")
-    parser.add_argument("--save_json_path", type=str, default=".", help="Path for saving result in json file")
+    parser.add_argument("--doc_path", type=str, default="data/input/doc-04.pdf", help="Path of pdf file")
+    parser.add_argument("--save_json_path", type=str, default="data/output", help="Path for saving result in json file")
     
     # Parse arguments
-    # args_list = ["--doc_path", "documents/doc-04.pdf", "--save_json_path", "."]
+    # args_list = ["--doc_path", "data/input/doc-04.pdf", "--save_json_path", "data/output"]
     # args = parser.parse_args(args_list)
     args = parser.parse_args()
 
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     pdf_extractor = PDF_data_Extraction(
         chat_model=chat_model, 
         DocFieldSchema=Parse_DocFields, 
-        path_fields_json='extraction-fields.json'
+        path_fields_json='data/input/extraction-fields.json'
         )
     
     # Extract data from the pdf and save it in json file 
